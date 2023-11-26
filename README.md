@@ -1,6 +1,7 @@
 # Contador de Palabras y Emojis
 
 Este proyecto implementa un contador de palabras y emojis con una interfaz gráfica simple utilizando Python, Flask y HTML.
+Realizado por David Londoño Palacio.
 
 ## Descripción
 
