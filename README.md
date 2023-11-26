@@ -20,8 +20,9 @@ Asegúrate de tener Python y Flask instalados antes de ejecutar la aplicación.
 
 ```bash
 pip install flask
-
+```
 ## Ejecución
 
 ```bash
-python main.py
+python app.y
+```
