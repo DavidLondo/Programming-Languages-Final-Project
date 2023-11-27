@@ -26,5 +26,5 @@ pip install flask
 ## Ejecución
 
 ```bash
-python app.y
+python app.py
 ```
