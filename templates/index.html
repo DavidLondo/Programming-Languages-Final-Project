@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Contador de Palabras y Emojis</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <img src="{{ url_for('static', filename='Logo EAFIT 2015 - Blanco.png') }}" alt="Logo EAFIT" class="logo">
+            <div class="container">
+                <h1>Contador de Palabras y Emojis</h1>
+                <form method="post" action="/">
+                    <label for="texto">Ingresa el texto:</label>
+                    <br>
+                    <textarea name="texto" id="texto" rows="4" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Contar">
+                </form>
+                <div id="resultados">
+                    <p>{{ resultado_texto }}</p>
+                    <p>{{ resultado_palabras }}</p>
+                    <p>{{ resultado_emojis }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
